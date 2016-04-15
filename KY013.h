@@ -16,7 +16,7 @@ Copyright 2016 Paul Philippov, themactep@gmail.com
 
 class KY013 {
 public:
-  KY013(uint8_t pin);
+  KY013(uint8_t _pin);
   float readTemperatureK();
   float readTemperatureC();
   float readTemperatureF();

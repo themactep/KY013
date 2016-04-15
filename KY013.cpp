@@ -5,7 +5,8 @@ Copyright 2016 Paul Philippov, themactep@gmail.com
 
 #include "KY013.h"
 
-KY013::KY013(uint8_t pin) {
+KY013::KY013(uint8_t _pin) {
+  pin = _pin;
   pinMode(pin, INPUT);
 }
 
